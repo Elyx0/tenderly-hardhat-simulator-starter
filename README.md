@@ -1,4 +1,17 @@
+Requires: [https://github.com/Tenderly/tenderly-cli](https://github.com/Tenderly/tenderly-cli) >= 1.1.4
+
+- Do your access token: Go to [https://dashboard.tenderly.co/account/authorization](https://dashboard.tenderly.co/account/authorization) 
+
+- Login `tenderly login` 
+
 CHANGE <key> for yours in `package.json` : requires alchemy.
+
+`yarn start` in one terminal
+`yarn impersonate` in another -> prompts tx in the `yarn start` terminal
+
+Copy it and do
+`tenderly export <hash>`
+
 # Advanced Sample Hardhat Project
 
 This project demonstrates an advanced Hardhat use case, integrating other tools commonly used alongside Hardhat in the ecosystem.
